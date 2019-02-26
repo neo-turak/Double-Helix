@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2018.
+  ~ Developed by Turak Nurahmat
+  ~ Under the guide of  the University of Hertfordshire, Master of Computer Science final project team.
+  ~ SID:15066679
+  ~ License: Apache 2.0
+  ~ All rights reserved!
+  -->
+
+<!--
+    根标签为animation-list，oneshot=false;loop playback
+    android:duration time length
+ -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item
+        android:drawable="@drawable/suceed_09"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_10"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_11"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_12"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_13"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_14"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_15"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_16"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_17"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_18"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_19"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_20"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_21"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_22"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_23"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_24"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_25"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_26"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_27"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_28"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_29"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/suceed_30"
+        android:duration="40"></item>
+</animation-list>

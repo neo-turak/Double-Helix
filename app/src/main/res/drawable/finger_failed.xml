@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018.
+  ~ Developed by Turak Nurahmat
+  ~ Under the guide of  the University of Hertfordshire, Master of Computer Science final project team.
+  ~ SID:15066679
+  ~ License: Apache 2.0
+  ~ All rights reserved!
+  -->
+
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true"> <!--just show once-->
+    <item
+        android:drawable="@drawable/failed_09"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_10"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_11"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_12"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_13"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_14"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_15"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_16"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_17"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_18"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_19"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_20"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_21"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_22"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_23"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_24"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_25"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_26"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_27"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_28"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_29"
+        android:duration="40"></item>
+    <item
+        android:drawable="@drawable/failed_30"
+        android:duration="40"></item>
+</animation-list>

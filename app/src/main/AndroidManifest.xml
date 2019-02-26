@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018.
+  ~ Developed by Turak Nurahmat
+  ~ Under the guide of  the University of Hertfordshire, Master of Computer Science final project team.
+  ~ SID:15066679
+  ~ License: Apache 2.0
+  ~ All rights reserved!
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.nurasoft.doublehelix">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.MICROPHONE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".Welcome_Activity"
+            android:enabled="true"
+            android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Login_Activity" />
+        <activity android:name=".text.New_Text_Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".text.Text_Activity" />
+        <activity android:name=".picture.Picture_Activity" />
+        <activity android:name=".video.Video_View_Activity" />
+        <activity android:name=".video.Video__Record_Activity" />
+        <activity android:name=".finger.FingerActivity" />
+        <activity
+            android:name=".audio.Audio_Activity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".game.Game_Activity" />
+        <activity android:name=".picture.PictureViewer_Activity" />
+        <activity android:name=".video.Video_list_Activity" />
+    </application>
+
+</manifest>

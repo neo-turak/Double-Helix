@@ -1,0 +1,42 @@
+<!--
+  ~ Copyright (c) 2018.
+  ~ Developed by Turak Nurahmat
+  ~ Under the guide of  the University of Hertfordshire, Master of Computer Science final project team.
+  ~ SID:15066679
+  ~ License: Apache 2.0
+  ~ All rights reserved!
+  -->
+
+<resources>
+    <string name="app_name">Double Helix</string>
+    <string name="ok">Done!</string>
+    <string name="ALL">ALL</string>
+    <string name="retract">Retract</string>
+    <string name="btn_return">return</string>
+    <string name="submit">submit</string>
+    <string name="welcome_name">rRecover your memory</string>
+    <string name="score_0">Score: 0</string>
+    <string name="doctor">Doctor</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="touch_to_start_recognition">Touch to start recognition</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="fingerprint">Fingerprint</string>
+    <string name="password">Password</string>
+    <string name="clock_pictures">Clock pictures</string>
+    <string name="more">more</string>
+    <string name="chat">Chat</string>
+    <string name="contacts">Contacts</string>
+    <string name="memory">Memory</string>
+    <string name="settings">Settings</string>
+    <string name="memory_icon">Memory icon</string>
+    <string name="chat_icon">Chat icon</string>
+    <string name="friends_icon">Friends icon</string>
+    <string name="settings_icon">Settings icon</string>
+    <string name="send">Send</string>
+    <string name="video_view_return">Return</string>
+    <string name="strnew">new</string>
+    <string name="press_to_record">Press to record</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018.
+  ~ Developed by Turak Nurahmat
+  ~ Under the guide of  the University of Hertfordshire, Master of Computer Science final project team.
+  ~ SID:15066679
+  ~ License: Apache 2.0
+  ~ All rights reserved!
+  -->
+
+<resources>
+
+    <declare-styleable name="Video_Recorder">
+        <!-- 开始是否打开摄像头 -->
+        <attr name="is_open_camera" format="boolean" />
+        <!-- 一次拍摄最长时间 -->
+        <attr name="record_max_time" format="integer" />
+        <!-- 视频分辨率宽度 -->
+        <attr name="_width" format="integer" />
+        <attr name="_height" format="integer" />
+        <!--   <attr name="width" format="integer"/>
+            视频分辨率高度
+           <attr name="height" format="integer"/> -->
+    </declare-styleable>
+
+</resources>

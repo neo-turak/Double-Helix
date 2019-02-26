@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018.
+  ~ Developed by Turak Nurahmat
+  ~ Under the guide of  the University of Hertfordshire, Master of Computer Science final project team.
+  ~ SID:15066679
+  ~ License: Apache 2.0
+  ~ All rights reserved!
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7e7e7"
+    android:orientation="vertical"
+    app:theme="@style/AppTheme">
+
+    <ImageView
+        android:layout_width="132dp"
+        android:layout_height="132dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/clock_pictures"
+        android:src="@drawable/timer" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_input"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:orientation="horizontal">
+                <!-- android:ems="10" the max length of the EditText -->
+                <!-- android:singleLine="true" if can not show all context，show with“…”instead -->
+                <EditText
+                    android:id="@+id/ET_username"
+                    android:layout_width="0dp"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:ems="10"
+                    android:hint="@string/username"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:textColorHint="#999999"
+                    android:textSize="18sp">
+
+                    <requestFocus />
+                </EditText>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="35dp"
+                    android:contentDescription="@string/more"
+                    android:src="@drawable/login_more_up" />
+            </LinearLayout>
+
+            <!-- this is a line between the username and password EditText  -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#CACD" />
+
+            <EditText
+                android:id="@+id/login_edtPwd"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@null"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:paddingEnd="0dp"
+                android:paddingStart="15dp"
+                android:textColorHint="#999999"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/login_btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/login_button_style"
+            android:text="@string/login"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/finger"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/finger_print_style"
+            android:gravity="center"
+            android:text="@string/fingerprint"
+            android:textColor="#ffffff"
+            android:textSize="19sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="15dp"
+                android:text="@string/forget_password"
+                android:id="@+id/ForgerPassword"
+                android:textColor="#0079FF"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

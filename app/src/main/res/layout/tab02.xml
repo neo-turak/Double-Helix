@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018.
+  ~ Developed by Turak Nurahmat
+  ~ Under the guide of  the University of Hertfordshire, Master of Computer Science final project team.
+  ~ SID:15066679
+  ~ License: Apache 2.0
+  ~ All rights reserved!
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingEnd="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@drawable/color1"
+            android:dividerHeight="1dp"
+            android:fastScrollEnabled="true" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@android:drawable/checkbox_on_background" />
+
+        <ImageButton
+            android:id="@+id/IB_Chat"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_toStartOf="@id/floatingActionButton"
+            android:background="@drawable/chat"
+            android:clickable="true"
+            android:contentDescription="@string/chat"
+            android:focusable="true"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/IB_Dial"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_toStartOf="@id/IB_Chat"
+            android:background="@drawable/dial"
+            android:clickable="true"
+            android:contentDescription="@string/contacts"
+            android:focusable="true"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/IB_Message"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_toStartOf="@id/IB_Dial"
+            android:background="@drawable/message"
+            android:clickable="true"
+            android:contentDescription="@string/contacts"
+            android:focusable="true"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

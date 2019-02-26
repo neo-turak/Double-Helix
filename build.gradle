@@ -1,0 +1,39 @@
+/*
+ * Copyright (c) 2018.
+ * Developed by Turak Nurahmat 
+ * Under the guide of  the University of Hertfordshire, Master of Computer Science final project team.
+ * SID:15066679
+ * License: Apache 2.0
+ * All rights reserved!
+ */
+
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        maven {
+            url 'https://maven.google.com'
+        }
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.4'
+        classpath 'com.android.tools.build:gradle:3.3.0-alpha05'
+
+    }
+}
+
+allprojects {
+    repositories {
+        maven {
+            url 'https://maven.google.com'
+        }
+        jcenter()
+        google()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

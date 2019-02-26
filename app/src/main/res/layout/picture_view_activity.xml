@@ -1,0 +1,48 @@
+<!--
+  ~ Copyright (c) 2018.
+  ~ Developed by Turak Nurahmat
+  ~ Under the guide of  the University of Hertfordshire, Master of Computer Science final project team.
+  ~ SID:15066679
+  ~ License: Apache 2.0
+  ~ All rights reserved!
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#080808"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context="cn.nurasoft.doublehelix.picture.PictureViewer_Activity">
+
+    <ImageView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/leftRotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="↺"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/rightRotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="↻"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
