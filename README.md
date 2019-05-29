@@ -1,11 +1,17 @@
 # Double Helix Application Based on Android for memory loss
 
+[Personal Webpage](https://www.nurasoft.cn)	:blush:
+
 ## Master of Computer Science final project.
 
 ![Apache License logo](/images/apache_license.png)
+Format: ![Alt Text](url)
 ![Java logo](/images/java.jpg)
+Format: ![Alt Text](url)
 ![Android logo](/images/android_studio.png)
+Format: ![Alt Text](url)
 ![SQLite logo](/images/SQLite.png)
+Format: ![Alt Text](url)
 
    ## brief
    This is my Master final project based on Android for memory loss. It has some functionalities which fully implemented such as chat,contacts, take pictures, take videos, record audios, record texts..etc. It also has upload and download functionality...etc.
@@ -13,10 +19,10 @@
  App fully works and need to upgrade the SDK version to Google newest version if necessarily.
  
  ## features
- *Fingerprint authentication*
- *Symbolic UI design*
- *Local Database:SQLite*
- *Multiple frameworks* 
+ **Fingerprint authentication**
+ **Symbolic UI design**
+ **Local Database:SQLite**
+ **Multiple frameworks** 
  
  ## User requirement
    
