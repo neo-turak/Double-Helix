@@ -1,17 +1,17 @@
 # Double Helix Application Based on Android for memory loss
 
-[Personal Webpage](https://www.nurasoft.cn)	:blush:
+[Personal Website](https://www.nurasoft.cn)	:blush:
 
 ## Master of Computer Science final project.
 
 ![Apache License logo](/images/apache_license.png)
-Format: ![Alt Text](url)
+
 ![Java logo](/images/java.jpg)
-Format: ![Alt Text](url)
+
 ![Android logo](/images/android_studio.png)
-Format: ![Alt Text](url)
+
 ![SQLite logo](/images/SQLite.png)
-Format: ![Alt Text](url)
+
 
    ## brief
    This is my Master final project based on Android for memory loss. It has some functionalities which fully implemented such as chat,contacts, take pictures, take videos, record audios, record texts..etc. It also has upload and download functionality...etc.
@@ -31,8 +31,8 @@ Format: ![Alt Text](url)
 The app will be a therapeutic tool for capturing and browsing material about a person's life history. This will involve a navigable timeline, represented by a helix, on which episodes in the person's life can be identified and associated with various media. The media may be video, photographs, text, speech, music etc.
 
 ## The Screen shoots
-![mainlogo](/images/main_logo.png)
+![mainlogo](/images/mainlogo.png)
 ![Login Page](/images/login.png)
-![fingerprint](/images/fingerprint.png)
+![fingerprint](/images/finger_print.png)
 ![main design](/images/main_design.png)
 
