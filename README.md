@@ -2,9 +2,9 @@
 
 ## Master of Computer Science final project.
 
-![Apache License logo](/images/apache License.png)
+![Apache License logo](/images/apache\ License.png)
 ![Java logo](/images/java.jpg)
-![Android logo](/images/android studio.png)
+![Android logo](/images/android\ studio.png)
 ![SQLite logo](/images/SQLite.png)
 
    ## brief
