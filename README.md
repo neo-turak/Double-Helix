@@ -37,3 +37,6 @@ The app will be a therapeutic tool for capturing and browsing material about a p
 ![fingerprint](/images/finger_print.png)
 ![main design](/images/main_design.png)
 
+## Existing issues
+  Not any issues found until now. If you find any problems, bugs feel free to contact me.
+
