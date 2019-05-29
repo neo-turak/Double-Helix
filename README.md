@@ -5,11 +5,8 @@
 ## Master of Computer Science final project.
 
 ![Apache License logo](/images/apache_license.png)
-
 ![Java logo](/images/java.jpg)
-
 ![Android logo](/images/android_studio.png)
-
 ![SQLite logo](/images/SQLite.png)
 
 
@@ -19,9 +16,13 @@
  App fully works and need to upgrade the SDK version to Google newest version if necessarily.
  
  ## features
+ 
  **Fingerprint authentication**
+ 
  **Symbolic UI design**
+ 
  **Local Database:SQLite**
+ 
  **Multiple frameworks** 
  
  ## User requirement
