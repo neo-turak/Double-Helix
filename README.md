@@ -1,8 +1,8 @@
 # Double Helix Application Based on Android for memory loss
 
-    ## Master of Computer Science final project.
+## Master of Computer Science final project.
 
-![Apache License logo](/images/apache license.png)
+![Apache License logo](/images/apache License.png)
 ![Java logo](/images/java.jpg)
 ![Android logo](/images/android studio.png)
 ![SQLite logo](/images/SQLite.png)
