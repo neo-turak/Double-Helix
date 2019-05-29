@@ -25,7 +25,7 @@
 The app will be a therapeutic tool for capturing and browsing material about a person's life history. This will involve a navigable timeline, represented by a helix, on which episodes in the person's life can be identified and associated with various media. The media may be video, photographs, text, speech, music etc.
 
 ## The Screen shoots
-![mainlogo](/images/mainlogo.png)
+![mainlogo](/images/main_logo.png)
 ![Login Page](/images/login.png)
 ![fingerprint](/images/fingerprint.png)
 ![main design](/images/main_design.png)
