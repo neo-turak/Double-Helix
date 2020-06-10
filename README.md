@@ -4,10 +4,10 @@
 
 ## Master of Computer Science final project.
 
-![Apache License logo](/images/apache_license.png)
-![Java logo](/images/java.jpg)
-![Android logo](/images/android_studio.png)
-![SQLite logo](/images/SQLite.png)
+![Apache License logo](images/apache_license.png)
+![Java logo](images/java.jpg)
+![Android logo](images/android_studio.png)
+![SQLite logo](images/SQLite.png)
 
 
    ## brief
@@ -32,10 +32,10 @@
 The app will be a therapeutic tool for capturing and browsing material about a person's life history. This will involve a navigable timeline, represented by a helix, on which episodes in the person's life can be identified and associated with various media. The media may be video, photographs, text, speech, music etc.
 
 ## The Screen shoots
-![mainlogo](/images/mainlogo.png)
-![Login Page](/images/login.png)
-![fingerprint](/images/finger_print.png)
-![main design](/images/main_design.png)
+![mainlogo](images/mainlogo.png)
+![Login Page](images/login.png)
+![fingerprint](images/finger_print.png)
+![main design](images/main_design.png)
 
 ## Existing issues
   Not any issues found until now. If you find any problems, bugs feel free to contact me.
